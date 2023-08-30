@@ -1,0 +1,55 @@
+---
+title: 'Thats how you make Lasagna'
+date: '2023-04-28'
+tags: ['bellaitalia','italy','food', '#fatlivestyle']
+---
+
+**Classic Homemade Lasagna**
+<CustomImage src="https://raw.githubusercontent.com/AndrinTraeger/blogposts/main/images/lasagna.jpg" alt="Lasagna" />
+Ingredients:
+
+- 12 lasagna noodles
+- 1 pound (450g) ground beef or ground turkey
+- 1 onion, chopped
+- 2 cloves garlic, minced
+- 1 can (28 ounces) crushed tomatoes
+- 1 can (14 ounces) tomato sauce
+- 2 teaspoons dried basil
+- 2 teaspoons dried oregano
+- 1/2 teaspoon salt (adjust to taste)
+- 1/4 teaspoon black pepper
+- 2 cups ricotta cheese
+- 1 large egg
+- 3 cups shredded mozzarella cheese
+- 1/2 cup grated Parmesan cheese
+- 2 tablespoons chopped fresh parsley (optional, for garnish)
+- Instructions:
+
+Prepare the Sauce:
+In a large skillet, cook the ground beef or turkey over medium heat until browned. Add chopped onion and minced garlic and cook until the onion is softened. Drain any excess fat from the skillet.
+
+Add Tomato Sauce:
+Stir in the crushed tomatoes, tomato sauce, dried basil, dried oregano, salt, and black pepper. Let the sauce simmer for about 15-20 minutes to allow the flavors to meld. Adjust the seasonings to taste.
+
+Cook Lasagna Noodles:
+While the sauce is simmering, bring a large pot of salted water to a boil. Cook the lasagna noodles according to the package instructions. Drain and rinse them under cold water to prevent sticking.
+
+Prepare Ricotta Mixture:
+In a bowl, mix the ricotta cheese, egg, and a pinch of salt until well combined.
+
+Assemble the Lasagna:
+Preheat your oven to 375°F (190°C). In a greased 9x13-inch baking dish, spread a thin layer of the tomato sauce on the bottom. Place a layer of cooked lasagna noodles over the sauce. Spread half of the ricotta mixture evenly over the noodles. Sprinkle with a portion of shredded mozzarella and grated Parmesan cheese. Add another layer of sauce.
+
+Repeat Layers:
+Create another layer by adding more noodles, followed by the remaining ricotta mixture, more shredded mozzarella, grated Parmesan, and sauce.
+
+Final Layer:
+Finish with a final layer of noodles, a generous amount of tomato sauce, and a topping of shredded mozzarella and grated Parmesan cheese.
+
+Bake:
+Cover the baking dish with aluminum foil and bake in the preheated oven for 25 minutes. Then, remove the foil and bake for an additional 20-25 minutes, until the cheese on top is melted and bubbly, and the edges are golden brown.
+
+Cool and Serve:
+Allow the lasagna to cool slightly before slicing and serving. Garnish with chopped fresh parsley if desired. Serve with a side salad and garlic bread for a complete meal.
+
+Enjoy your delicious homemade lasagna! It's even better the next day as the flavors continue to develop.
