@@ -1,0 +1,70 @@
+---
+title: 'Progress in React'
+date: '2023-08-20'
+tags: ['programming','react', 'learning']
+---
+
+<CustomImage src="https://raw.githubusercontent.com/AndrinTraeger/blogposts/main/images/react.png" alt="React" />
+
+**Leitfragen**
+- Was genau ist React?
+- Wie hängt React mit JavaScript und/oder TypeScript zusammen?
+- Welcher Mehrwert bietet React wenn es um Webapplikationen geht?
+- Was sind Hooks und wozu sind sie gut? Was für Hooks gibt es?
+- Was sind Components?
+- Wie kann die Performance einer, mit React gebauten App, verbessert werden?
+
+**Notizen**
+- Components
+- Props
+- Events
+- Hooks: useState, useEffect, useRef, useReducer, useCallback, useMemo, useTransition
+- Performance
+- Routing
+
+React ist eine auf JavaScript-basierende UI-Entwicklungsbibliothek. 
+
+**useState:** 
+
+Erlaubte es eine state zu einer Komponente hinzuzufügen
+
+**useEffect:**
+
+Ermöglicht es , Side Effects in einer Komponente auszuführen. Einige Beispiele für Side Effects sind das Abrufen von Daten, das direkte Aktualisieren des DOM und Zeitgeber. 
+Es akzeptiert zwei Argumente.
+
+**useRef:**
+
+Der useRef Hook bietet eine unkomplizierte Möglichkeit, einen Verweis auf ein DOM-Element zu erstellen, sodass es im Kontext der Komponente leicht zugänglich und manipulierbar ist.
+
+**useReducer:** 
+
+dient dazu, aus dem aktuellen State und der jeweiligen Action mit ihren type - und payload -Eigenschaften einen neuen State zu erzeugen.
+
+**useCallback:** 
+
+Gibt eine zwischengespeicherte Version zurück, es sei denn, eine ihrer Abhängigkeiten z. B. State oder Props ändert sich
+
+**useMemo:** 
+
+ermöglicht es uns, eine Komponente zu merken.
+
+**useTransition:** 
+
+ist ein React Hook, mit dem der Status aktualisiert werden kann, ohne die Benutzeroberfläche zu blockieren.
+
+Komponenten sind voneinander unabhängige Funktionselemente, die in einer Anwendung wiederverwendet werden können, und sie stellen die Grundbausteine aller React-Anwendungen dar.
+
+Die drei Hooks useCallback, useMemo & useTransition sind relevant um die Performance einer Website zu verbessern. Memo() kann teilweise auch verwendet werden.
+
+**useCallback:** 
+
+Die Hook gibt eine gespeicherte Version der Funktion zurück, die sich nur ändert, wenn sich einer der Werte im Dependency-Array ändert. Durch die Speicherung der Funktion können unnötige Re-renderings vermieden und die Leistung Ihrer React-Anwendung verbessert werden.
+
+**useMemo:** 
+
+Die useMemo-Hook ist ein Hook in React, mit der ein Wert gespeichert werden kann. Er nimmt zwei Argumente entgegen: Das erste ist eine Funktion, die den Wert zurückgibt, der gespeichert werden möchte, und das zweite ist ein Dependency-Array. Die Hook gibt den gespeicherten Wert zurück, der sich nur ändert, wenn sich einer der Werte im Dependency-Array ändert.
+
+**useTransition:** 
+
+Ermöglicht es eine State zu updaten ohne die UI zu blockieren. Stattdessen wird ein Loading Screen eingeblendet.
