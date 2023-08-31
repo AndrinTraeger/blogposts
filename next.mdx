@@ -26,3 +26,38 @@ tags: ['programming','nextjs', 'learning']
 - Mutations
 - TailwindCSS
 
+**Error.tsx:** Bei Errors auf der Website, wird man automatisch auf diese Seite weitergeleitet
+**Loading.tsx:** Wenn Daten gefetcht werden, kann es ein Weilchen Dauern, bis diese auf der Website angezeigt werden. Mit Loading.tsx wird das Layout dieser Seite angezeigt, während es lädt.
+**Page.tsx:** Hier wird festgelegt was auf einer Seite angezeigt wird.
+**Layout.tsx:** Hier wird festgelegt, was auf allen Seiten angezeigt wird.
+**route.ts:** Darauf kann die Logik für eine API implementiert werden.
+
+**SSG - Static Site Generation (Statische Seiten-Generierung):**
+Bei der statischen Seiten-Generierung werden HTML-Seiten zur Build-Zeit erstellt und dann an die Clients ausgeliefert. Dies ist besonders effizient für Inhalte, die sich nicht häufig ändern, wie z.B. Blogposts oder Produktseiten. Während des Build-Prozesses werden Daten von einer Datenquelle geholt und in HTML umgewandelt. Diese vorgefertigten HTML-Seiten werden dann an die Besucher ausgeliefert, ohne dass bei jedem Seitenaufruf der Server erneut kontaktiert werden muss. Dies führt zu schnellen Ladezeiten und geringem Serveraufwand.
+
+**SSR - Server-Side Rendering (Serverseitiges Rendern):**
+Bei der serverseitigen Rendering-Methode wird jeder Seitenaufruf direkt auf dem Server gerendert, bevor die Seite an den Client geschickt wird. Dies ermöglicht die Dynamik von clientseitigen Interaktionen, aber der Server generiert den HTML-Code für jede Anfrage. SSR eignet sich gut für Seiten mit häufig aktualisierten Daten oder wenn SEO wichtig ist, da Suchmaschinen den vollständigen gerenderten Inhalt sehen können.
+
+**ISR - Incremental Static Regeneration (Inkrementelle Statische Regeneration):** 
+ISR ist eine Technik, die in Next.js eingeführt wurde. Sie kombiniert die Vorteile von SSG und SSR. Bei ISR werden HTML-Seiten zur Build-Zeit generiert, aber im Gegensatz zu reinem SSG können sie auch nach der Initialgenerierung aktualisiert werden. Die Seite wird für eine bestimmte Zeit gecacht, und in regelmäßigen Abständen oder bei bestimmten Ereignissen wird der Cache aktualisiert, um die Seite neu zu generieren. Dadurch können statische Seiten mit aktuellen Daten aktualisiert werden, ohne dass bei jedem Aufruf der Server gerendert werden muss.
+
+**Middleware:**
+Middleware ist eine Funktion, die in den Server- oder Routenverarbeitungsprozess eingreift, bevor eine Anfrage an eine Seite oder eine API-Route weitergeleitet wird. Middleware wird häufig verwendet, um bestimmte Aktionen auszuführen, bevor eine Anfrage verarbeitet wird, oder um die Anfrage zu beeinflussen, indem beispielsweise Authentifizierung, Datenverarbeitung oder Protokollierung durchgeführt wird.
+
+**Revalidations:**
+Die Revalidierung in Next.js bezieht sich auf die Funktionalität der "Incremental Static Regeneration" (ISR), die es ermöglicht, statische Seiten periodisch oder bei Bedarf neu zu generieren, um aktuelle Daten darzustellen. ISR ist eine fortschrittliche Technik, die in Next.js eingeführt wurde, um die Vorteile von statischen Seiten (schnelle Ladezeiten) mit der Aktualisierungsfähigkeit von dynamischen Seiten zu kombinieren.
+
+Alle 10 Sekunden wird die Seite aktualisiert:
+export const revalidate = 10
+
+Üblicher ist es jeden Tag eine Seite zu aktualisieren:
+export const revalidate = 86400
+
+**Mutations:**
+In Next.js und React im Allgemeinen bezieht sich der Begriff "Mutation" normalerweise auf Änderungen an Daten oder Zuständen. In Bezug auf Frontend-Entwicklung werden "Mutationen" oft in Verbindung mit Zustandsverwaltung und Datenaktualisierung verwendet.
+
+**State Mutations:** In React-Anwendungen kann der Zustand eines Komponenten mit Hilfe von useState verwaltet werden. Eine Mutation des Zustands bedeutet einfach, dass der Wert des Zustands verändert wird. Hierbei ist es wichtig, State-Mutationen korrekt zu behandeln, um unerwünschtes Verhalten zu vermeiden. State sollte niemals direkt mutiert werden, sondern immer durch die Verwendung von Set-Funktionen aktualisiert werden, die React zur Verfügung stellt.
+
+**Data Mutations:** Wenn Ihre Anwendung Daten aus einer externen Quelle bezieht (z. B. API-Anfragen), können Mutationen verwendet werden, um diese Daten zu aktualisieren oder zu ändern. Es handelt sich dabei um den Prozess, bei dem Daten, die von APIs empfangen werden, verändert werden, bevor sie in der Anwendung dargestellt oder gespeichert werden.
+
+**State Management Libraries:** In komplexeren Anwendungen können spezialisierte State-Management-Bibliotheken wie Redux oder MobX verwendet werden, um den Zustand der Anwendung auf zentralisierte Weise zu verwalten. Auch hier bezieht sich der Begriff "Mutation" auf Änderungen im Zustand, die über Aktionen ausgelöst werden.
