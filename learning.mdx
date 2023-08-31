@@ -31,7 +31,7 @@ Drei bekannte Schlüsselwörter, um Variablen zu deklarieren, sind let, var & co
 
 -const wird einmal deklariert und ist nachher unveränderlich. Bspw. PI wäre ein Beispiel für eine typische const.
 
-Um zu überprüfen ob das Programm auch wirklich das macht, was der Entwickler erwartet, lohnt es sich Zwischenwerte zu speichern und zu überprüfen. Mit console.log() oder window.alert() können diese Werte entweder in der Konsole oder auch direkt auf der Webseite angezeigt werden.
+Um zu überprüfen ob das Programm auch wirklich das macht, was der Entwickler erwartet, lohnt es sich Zwischenwerte zu speichern und zu überprüfen. Mit **console.log** oder window.**alert** können diese Werte entweder in der Konsole oder auch direkt auf der Webseite angezeigt werden.
 
 Arrow-Functions: 
 ```js
@@ -52,7 +52,7 @@ Ebenso Hilfreich um Werte aus Konstruktoren zu entnehmen.
 - Was ist denn TypeScript überhaupt?
 - Was unterscheidet TypeScript von JavaScript?
 - Was kann mir TypeScript aus Entwicklersicht bieten?
-- Kann TypeScript auch für andere wertvoll sein? (z.B. Projektleiter, Betrieb, …)
+- Kann TypeScript auch für andere wertvoll sein? z.B. Projektleiter, Betrieb, …
 - Was finde ich an TypeScript cool und was eher weniger?
 - Was versteht man unter Generics?
 - Was ist der Unterschied zwischen abstrakten und normalen Klassen?
@@ -63,9 +63,9 @@ Typescript gibt Javascript das, was es nicht hat. Eine Spezifikation für Datent
 
 Es wird dem Entwickler ermöglich, Klassen, Interfaces … zu erstellen und mittels Vererbung zu verknüpfen. Dazu können einzelne Variable wie auch Funktion private, public, protected gesetzt werden. 
 
-Private : Man kann nur in der Klasse darauf zugreifen.
-Public : Für alle zugreifbar.
-Protected : Nur in der eigenen Klasse und in den Klassen die erben zugreifbar.
+Private: Man kann nur in der Klasse darauf zugreifen.
+Public: Für alle zugreifbar.
+Protected: Nur in der eigenen Klasse und in den Klassen die erben zugreifbar.
 Protected, Public, Private = Modificators
 
 Durch die Typenspezifizierung entstehen wenigere Probleme. Eine var: number kann nicht im Nachhinein durch einen String ersetzt werden.
@@ -77,7 +77,7 @@ Mit Generics kann man Klassen und Methoden mit Typparametern parametrisieren. Da
 
 Von abstrakten Klassen kann kein Objekt mehr instanziiert werden, sondern dass ganze wird an die Unterklassen weitergegeben.
 
-(Kommandozeile)
+Kommandozeile:
 Mit **tsc -w** wird das .ts Dokument, das geöffnet wird automatisch bei jeder Änderung kompiliert.
 Mit **tsc {dateiname}** wird das .ts Dokument manuell kompiliert.
 
@@ -97,7 +97,7 @@ Mit **tsc {dateiname}** wird das .ts Dokument manuell kompiliert.
 - Components
 - Props
 - Events
-- Hooks (useState, useEffect, useRef, useReducer, useCallback, useMemo, useTransition)
+- Hooks: useState, useEffect, useRef, useReducer, useCallback, useMemo, useTransition
 - Performance
 - Routing
 
@@ -122,7 +122,7 @@ dient dazu, aus dem aktuellen State und der jeweiligen Action mit ihren type - u
 
 **useCallback:** 
 
-Gibt eine zwischengespeicherte Version zurück, es sei denn, eine ihrer Abhängigkeiten (z. B. State oder Props) ändert sich
+Gibt eine zwischengespeicherte Version zurück, es sei denn, eine ihrer Abhängigkeiten z. B. State oder Props ändert sich
 
 **useMemo:** 
 
@@ -160,7 +160,7 @@ Ermöglicht es eine State zu updaten ohne die UI zu blockieren. Stattdessen wird
 - …
 
 **Notizen**
-- Pages/Layout (Error.tsx, Loading.tsx, Page.tsx, Layout.tsx, route.ts “Lib” Folder for tsx-files with functionality)
+- Pages/Layout: Error.tsx, Loading.tsx, Page.tsx, Layout.tsx, route.ts “Lib” Folder for tsx-files with functionality
 - Fetching Data
 - SSG, SSR, ISR
 - Route Handlers
